@@ -1,0 +1,7 @@
+print('Calculo para quantidade de tinta por metro²')
+n1=float(input('Informar largura da parede: '))
+n2=float(input('Informar altura da parede: '))
+a=n1*n2
+t=(a/2)
+print('A área da parede é de {}'.format(a),end=' ')
+print(' e a quantidade de tinta necessária é de {}.'.format(t))
